@@ -1,0 +1,38 @@
+# Data
+*.parquet
+*.csv
+data/
+
+# Model checkpoints & outputs
+vnpi_model/
+outputs/
+vncorenlp/
+VnCoreNLP-*.jar
+*.bin
+*.safetensors
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp files
+nb_sources.txt
+nb_outputs.txt

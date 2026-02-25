@@ -1,0 +1,11 @@
+torch>=2.0.0
+transformers>=4.40.0
+datasets>=2.18.0
+accelerate>=0.28.0
+evaluate>=0.4.0
+scikit-learn>=1.4.0
+py_vncorenlp>=0.1.4
+pandas>=2.0.0
+numpy>=1.24.0
+pyarrow>=15.0.0
+gradio>=4.0.0
