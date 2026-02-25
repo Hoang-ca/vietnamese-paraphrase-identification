@@ -48,7 +48,7 @@
   accuracy                           0.97      6702
 ```
 
-> **Note:** All metrics are from the held-out test set using `StratifiedGroupKFold` — no data leakage.
+> **Note:** All metrics are from the held-out test set using `StratifiedGroupKFold` — no data leakage. The test set reflects the natural class distribution of the merged datasets (~94.6% paraphrase, ~5.4% non-paraphrase), so accuracy is inflated by the majority class. **Macro F1 (0.876)** is the primary evaluation metric as it equally weights both classes. Training mitigates this imbalance via hard-negative mining, inverse-frequency class weights, and label smoothing.
 
 ---
 
