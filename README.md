@@ -189,16 +189,6 @@ Paraphrase datasets often contain the **same sentence in multiple pairs**, creat
 
 ---
 
-## 📄 CV-Ready Description
-
-> **Vietnamese Paraphrase Identification** (NLP, PhoBERT, Transformers)
->
-> - Built an end-to-end Vietnamese paraphrase identification pipeline using PhoBERT-base-v2 with VnCoreNLP word segmentation, training on 40K+ sentence pairs merged from four public datasets (VNPC, vnPara, ViSP, ViQP)
-> - Engineered a leakage-free evaluation framework using Union-Find connected components and StratifiedGroupKFold splitting; implemented TF-IDF hard-negative mining and class-balanced weighted loss to handle data imbalance
-> - Achieved 97.02% accuracy / 0.876 macro-F1 / 0.9995 PR-AUC on a held-out test set of 6,702 samples, demonstrating strong discrimination between paraphrase and non-paraphrase pairs
-
----
-
 ## 🤗 Model Checkpoint
 
 The fine-tuned model is hosted on HuggingFace Hub:
